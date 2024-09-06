@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/9bdeb6820c.js" crossorigin="anonymous"></script>
+    <title>Jennie_ishStyles</title>
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
+    <Link rel="stylesheet" href="review.css">
+
+</head>
+<body>
+    <sectionc class="testimonials">
+<div class="container">
+    <div class="section-header">
+     <h1 class="title">Reviews</h1>
+         </div>
+         <div class="testimonials-content">
+            <div class="swiper testimonials-slider js-testimonials-slider">
+                <div class="swiper-wrapper">
+                <div class="swiper-slide testimonials-item">
+                    <div class="quote">
+                        
+                    </div>
+                    <div class="info">
+                        <p> The quality of the clothing from Jennie_ishStyles outstanding. The fabrics are luxurious, and the stitching is impeccable. I've washed my items multiple times, and they still look as good as new. It's clear that this brand takes pride in their craftsmanship."
+                        </P>
+                    </div>
+                </div>
+                  <div class=" swiper-slide testimonials-item">
+                    <div class="info">
+                        <P id="slide-2">
+                        The fit of Jennie_ishStyles clothes is perfect for me. Their size guides are accurate, and the clothes are incredibly comfortable. Whether I'm dressing up for an event or lounging at home, I know I’ll be both stylish and comfortable."
+                        </P>
+                    </div>
+                  </div>
+                 <div class="swiper-slide testimonials-item">
+                    <div class="info">
+                        <p>
+                            I love the unique designs Jennie_ishStyles offers. Their pieces are unlike anything else on the market, and I always get compliments when I wear them. It’s clear they have a talented design team who knows how to blend classic styles with modern trends."
+                            </p>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-pagination js-testimonials-pagination"></div>
+        </div>  
+    </div>
+</section>
+     
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>     
+<script>
+    const swiper = new Swiper('.js-testimonials-slider', {
+     grabCursor: true,
+     spaceBetween:30,
+     pagination:{
+        el: '.js-testimonials-pagination',
+        clickable: true
+     },
+     breakpoints:{
+        767:{
+            slidesPerView: 2
+        }
+     }
+     
+    });
+</script>  
+</body>
+</html>

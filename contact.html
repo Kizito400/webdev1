@@ -1,0 +1,40 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONTACT PAGE</title>
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+    
+    <section id="contactform">
+<form class="form" action="https://formspree.io/f/mldrvbva" method="POST">
+    <p class="title">CONTACT</p>
+    
+        <div class="flex">
+        <label>
+            <input class="input" type="text" placeholder="" name="Firstname" required="" id="firstName">
+            <span>Firstname</span>
+        </label>
+
+        <label>
+            <input class="input" type="text" placeholder="" required="" name="Lastname" id="lastName">
+            <span>Lastname</span>
+        </label>
+    </div>  
+            
+    <label>
+        <input class="input" type="email" placeholder="" required="" id="email" name="email">
+        <span>Email</span>
+    </label> 
+        
+    <textarea class="textarea" placeholder="Contact us" required id="message"></textarea>
+    <button class="submit" type="submit">Submit</button>
+
+
+</section>
+<div id="formResponse"></div>
+</form>
+<script src="j.js"></script>
+</body>
+</html>
